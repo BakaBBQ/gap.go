@@ -37,10 +37,10 @@ function updateSessionCnt() {
 		context: $('body'),
 		
 		success: function(data){
-			$("#sessionCnt").text(data.sessionCnt)
+			$("#sessionCnt").text(data.sessionCnt);
 		},
 		error: function(xhr, type){
-			console.log("getting session count error")
+			console.log("getting session count error");
 		}
 	});
 }
@@ -63,7 +63,7 @@ $("#main").on('click',function(){
 				var password = data.password;
 				
 				
-				var msg = "<b>Success! </b> <br><p>PPTP username: <code>"+ username + "</code> <br>password: <code>"+ password +"</code></p>";
+				var msg = "<b>Success! </b> <br> Now you have your <code>PPTP</code> vpn session!<br>  <p> server address: <code>ninesyllables.org</code> <br> <p> username: <code>"+ username + "</code> <br>password: <code>"+ password +"</code></p>";
 				$(".info").fadeOut(400,function(){
 					$(".info").html(msg);
 					$(".info").fadeIn(400);	
@@ -186,5 +186,5 @@ onePageScroll(".main", {
 });
 
 
-
+updateSessionCnt();
 setInterval(updateSessionCnt, 3000);

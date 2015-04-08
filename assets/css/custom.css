@@ -37,6 +37,14 @@ body {
 	background-color: #3498DB;
 }
 
+a {
+	 color: inherit; 
+} 
+
+a:hover {
+	color: inherit; 
+}
+
 p.gray {
 	text-align: center;
 	font-size: 1.4rem;
