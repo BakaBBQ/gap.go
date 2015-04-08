@@ -1,0 +1,17 @@
+doctype 5
+html[lang="en"]
+	head
+		meta[charset="utf-8"]
+		title Gap
+		link[rel="stylesheet"][href="/assets/css/normalize.css"]
+		link[rel="stylesheet"][href="/assets/css/skeleton.css"]
+		link[rel="stylesheet"][href="/assets/css/onepage-scroll.css"]
+	body
+		div.container
+			div.row
+				div.six.columns
+					h1 Gap
+					p this is fun
+				div.six.columns
+					h1 Hi
+		script[src="/assets/js/onepagescroll.min.js"]

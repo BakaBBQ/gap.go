@@ -1,0 +1,95 @@
+doctype 5
+html[lang="en"]
+	head
+		meta[charset="utf-8"]
+		title Gap
+		link[rel="stylesheet"][href="/assets/css/normalize.css"]
+		link[rel="stylesheet"][href="/assets/css/skeleton.css"]
+		link[rel="stylesheet"][href="/assets/css/onepage-scroll.css"]
+		link[rel="stylesheet"][href="/assets/fonts/octicons.css"]
+		
+		link[rel="stylesheet"][href="/assets/css/custom.css"]
+	body
+		div.main
+			section
+				div.container
+					div.row
+						div.five.columns
+							div.margin-top-up[align="right"][style="color: white;"]
+								span.octicon.octicon-mortar-board[style="font-size: 150px;"]
+						div.five.columns
+							div.margin-top
+								form.login
+									input.u-full-width#passcode[type="text"][placeholder="Your secret token here"]
+									input.u-full-width#username[type="text"][placeholder="Your username here"]
+
+									a.button.u-full-width.button-primary#main Get 1-hour Free Vpn Session
+									p.info.gray Welcome to Gap, the temperory VPN solution.
+						div.two.columns
+							p &nbsp
+				footer[style="position: fixed; bottom: 0px; width: 100%; height: 30px; color: white;"]
+					div.container
+						center
+							p#footer The software and code are licensed under the MIT License. Source code avaliable on Github.
+			section[style="background-color: white;"]
+				div#rectangle
+				div.container.down-results
+					div.row
+						div.four.columns
+							div.margin-top-second
+								h2 Rationale
+								span This service is only here because my VPS
+								| has excess bandwidth. Thus I deem it appropriate
+								| to utilize those bandwidth for some benefit for
+								| others. Also because I want to seek some fun
+								| and try a new language.
+								p
+								| With that said, this service is only an
+								| expedient for those who seek to get over the
+								| Great Firewall of China, not a forever solution.
+								| I provided this mainly for the benefit for others.
+								| Please do not exploit this service.
+								
+						div.four.columns
+							div.margin-top-second
+								h2 Credits
+								p This project benefits greatly from open-source projects.
+								
+								ul
+									li
+										a[href="http://getskeleton.com"] Skeleton
+										span - the frontend framework
+									li
+										a[href="https://golang.org"] Go
+										span - the backend language
+									li
+										a[href="http://gin-gonic.github.io/gin/"] Gin
+										span - the golang web framework
+									li
+										a[href="https://github.com/eknkc/amber"] Amber
+										span - the template engine
+									li
+										a[href="https://github.com/peachananr/onepage-scroll"] OnePageScroll
+										span - the awesome one page scroll js
+						div.four.columns
+							div.margin-top-second
+								h2 Links
+								span While the "Credits" list describes the direct influences,
+								| this section lists some indirect influences, mainly websites
+								| and personal blogs, that somewhat share the same philosophy.
+								p
+								ul
+									li
+										a[href="https://orzfly.com"] orzFly
+										span - the blog of orzFly (囧叔)
+									li
+										a[href="http://urpgs.com"] urpgs
+										span - old home
+									li
+										a[href="http://rm.66rpg.com"] 66rpg
+										span - old home
+		script[src="/assets/js/onepagescroll.min.js"]
+		script[src="/assets/js/zepto.min.js"]
+		script[src="/assets/js/zepto.fx.js"]
+		script[src="/assets/js/zepto.fxmethod.js"]
+		script[src="/assets/js/gapapp.js"]

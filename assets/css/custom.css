@@ -1,0 +1,46 @@
+#rectangle {
+	width: 100%;
+	height: 10px;
+	background: #3498DB;
+	position: fixed;
+	top:0;
+	left:0%;
+}
+
+.blank-fill {
+	margin-top: 5%;
+}
+
+.octicon {
+	font-size: 20px;
+}
+
+.login {
+	background-color: #ECF0F1;
+	border-radius: 6px;
+	padding: 24px 23px 20px;
+}
+
+.margin-top {
+	margin-top: 45%;
+}
+
+.margin-top-up {
+	margin-top: 50%;
+}
+
+.margin-top-second {
+	margin-top: 20%;
+}
+
+body {
+	background-color: #3498DB;
+}
+
+p.gray {
+	text-align: center;
+	font-size: 1.4rem;
+	color: #7F8C8D;
+	margin: 0px;
+	padding: 0px;
+}
